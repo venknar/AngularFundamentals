@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	    <title></title>
+	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+	    <script type="text/javascript" src=".\NestedControllerApp.js"></script>
+	</head>
+
+	<body ng-app="NestedControllerApp">
+
+	<div ng-controller="ParentController"> 
+		<div ng-controller="ChildController"> 
+			<a ng-click="sayHello()">Say hello</a> 
+		</div> 
+		{{ person }} 
+	</div>
+
+	</body>
+
+
+</html>
