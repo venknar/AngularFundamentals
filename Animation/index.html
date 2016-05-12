@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>ng-hide/ng-show css animations</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.5/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.5/angular-animate.min.js"></script>
+	</head>
+	
+    <body ng-app="app" ng-controller="TestCtrl as test">
+        <button ng-click="test.showBoxOne = !test.showBoxOne">Toggle Box One</button>
+    
+        <div class="box-one" ng-show="test.showBoxOne">
+            Hello! I am <b>box one</b>.
+        </div>
+	</body>
+</html>
