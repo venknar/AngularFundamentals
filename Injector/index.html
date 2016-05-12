@@ -5,13 +5,13 @@
 	<head>
 	    <title></title>
 	    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
-	    <script type="text/javascript" src="./ClockApp.js"></script>
+	    <script type="text/javascript" src="./InjectorApp.js"></script>
 	</head>
 
-	<body ng-app="ClockApp">
+	<body ng-app="InjectorApp">
 
-		<div ng-controller="ClockController"> 
-			<h1>Hello {{ clock.now }}!</h1> 
+		<div ng-controller="InjectorController"> 
+			<button ng-click="sayHello()">Hello World</button>
 		</div> 
 
 	</body>

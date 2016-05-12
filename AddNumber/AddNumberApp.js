@@ -6,6 +6,7 @@ angular.module('AddNumberApp', []).controller('AddNumberController',
 		
 		$scope.add = function(amount) 
 		{
+			debugger;
 			$scope.count += amount;
 		}
 		

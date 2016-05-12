@@ -1,0 +1,27 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	    <title></title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	    <script type="text/javascript" src="./ProtractorApp.js"></script>
+	</head>
+
+	<body ng-app="ProtractorCalc">
+		
+		<div ng-controller="ProtractorCalcController">
+			<h2>Say something</h2>
+			<input type="text" ng-model="newText">
+		
+			<button class="btn btn-default" ng-click="changeGreeting()">Change!</button>
+			<p id="greeting">{{ greeting }}</p>
+		</div>
+			
+	</body>
+
+
+</html>
+
+
+

@@ -1,0 +1,25 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	    <title></title>
+	    <script type="text/javascript" src="../../bower_components/angular/angular.js"></script>
+	    <script type="text/javascript" src="./myCalculatorApp.js"></script>
+	</head>
+
+	<body ng-app="CalculatorApp">
+
+		<div ng-controller="CalculatorController"> 
+
+			<input type="number" ng-model="x"/>	
+			<input type="number" ng-model="y"/>	
+			<strong>{{ z }}</strong>
+			<input type="button" ng-click="sum()" value="+"/>
+
+		</div> 
+
+	</body>
+
+
+</html>

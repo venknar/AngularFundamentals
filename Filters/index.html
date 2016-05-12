@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	    <title></title>
+	    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+	    <script type="text/javascript" src=".\FiltersApp.js"></script>
+	</head>
+
+	<body ng-app="FiltersApp">
+
+	<div ng-controller="FiltersController"> 
+		<input ng-model='expr' type="text" placeholder="Enter an Name"></input>
+		<h2>Hello, {{expr | uppercase}}</h2> 
+		<h2>{{today | date:'medium'}}</h2>
+		<h2>{{string1 | filter:'i'}}</h2>		
+		<h2>{{string1 | filter:isCapitalized}}</h2>		
+		<h2>{{string2 | lowercase | capitalize}}</h2>		
+
+	</div>
+
+	</body>
+
+
+</html>

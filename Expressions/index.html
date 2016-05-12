@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+	    <title></title>
+	    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+	    <script type="text/javascript" src=".\ExpressionsApp.js"></script>
+	</head>
+
+	<body ng-app="ExpressionsApp">
+
+	<div ng-controller="ExpressionController"> 
+		<input ng-model='expr' type="text" placeholder="Enter an Expression"></input>
+		<h2>{{ exprValue }}</h2> 
+	</div>
+
+	</body>
+
+
+</html>
