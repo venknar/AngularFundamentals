@@ -9,7 +9,7 @@ angular.module('SimpleDirectiveApp', [])
 //         template: '<a href="http://google.com">Visit Google</a>',
 //        // replace: true  // Explain this.
 //     }
-// })
+// });
 .directive('myDirective', function() {
     return {
         restrict: 'AE',
